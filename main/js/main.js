@@ -11,37 +11,42 @@ const tl = new TimelineMax();
 tl.set('.yellowKOI', {
     x: -600,
     y: 30,
-    autoAlpha: 0
+    autoAlpha: 0,
+    rotation: 180
 })
     .to('.yellowKOI', {
-        duration: 7,
+        duration: 3,
         x: 175,
         autoAlpha: 0.8,
-        ease: "back.out(0.5)"
+        // ease: "power3.out",
+        rotation: 0
     });
 const tl2 = new TimelineMax();
 
     tl2.set('.redKOI', {
         x: 600,
         y: -30,
-        autoAlpha: 0
+        autoAlpha: 0,
+        rotation: -180
     })
         .to('.redKOI', {
-            duration: 7,
+            duration: 3,
             x: -175,
             autoAlpha: 0.95,
-            ease: "back.out(0.5)"
+            // ease: "power3.out",
+            rotation: 0
         });
 
 const tl3 = new TimelineMax();
 
     tl3.set(".ethFRAME", {
-        y: 700,
+        
         autoAlpha: 0
     })
         .to(".ethFRAME", {
-            duration: 3,
+            duration: 4,
             y: 0,
-            autoAlpha: 1.5,
-            ease: "back.out(2)"
+            autoAlpha: 1,
+            // rotation: 360
+            // ease: "back.out(1)"
         })

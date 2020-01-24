@@ -1,5 +1,5 @@
 .is-danger-koi {
-  background-color: #54c2b0;
+  background-color: #060124;
 }
 
 .flex-row-nowrap {
@@ -28,9 +28,17 @@
   width: 206px;
 }
 
+.light-text {
+  color: white;
+}
+
 .container-koi {
-  background-color: #222222;
+  background-color: #0f0b24;
   height: 100%;
   padding: 70px 10px 10px;
+}
+
+.header-dark-koi {
+  background-color: #181333;
 }
 /*# sourceMappingURL=style.css.map */
