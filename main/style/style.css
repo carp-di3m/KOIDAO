@@ -1,0 +1,33 @@
+.is-danger-koi {
+  background-color: #5f54c2;
+}
+
+.flex-row-nowrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.koi-resize {
+  height: 284px;
+  width: 240px;
+}
+
+.eth-resize {
+  height: 330px;
+  width: 206px;
+}
+
+.container-koi {
+  background-color: #222222;
+  height: 100%;
+  padding: 70px 10px 10px;
+}
+/*# sourceMappingURL=style.css.map */
