@@ -14,9 +14,10 @@ tl.set('.yellowKOI', {
     autoAlpha: 0
 })
     .to('.yellowKOI', {
-        duration: 3,
+        duration: 7,
         x: 175,
-        autoAlpha: 1
+        autoAlpha: 0.8,
+        ease: "back.out(0.5)"
     });
 const tl2 = new TimelineMax();
 
@@ -26,9 +27,10 @@ const tl2 = new TimelineMax();
         autoAlpha: 0
     })
         .to('.redKOI', {
-            duration: 3,
+            duration: 7,
             x: -175,
-            autoAlpha: 1
+            autoAlpha: 0.95,
+            ease: "back.out(0.5)"
         });
 
 const tl3 = new TimelineMax();
@@ -40,5 +42,6 @@ const tl3 = new TimelineMax();
         .to(".ethFRAME", {
             duration: 3,
             y: 0,
-            autoAlpha: 1
+            autoAlpha: 1.5,
+            ease: "back.out(2)"
         })
