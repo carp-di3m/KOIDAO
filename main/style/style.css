@@ -1,5 +1,5 @@
 .is-danger-koi {
-  background-color: #5f54c2;
+  background-color: #54c2b0;
 }
 
 .flex-row-nowrap {
@@ -13,11 +13,14 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .koi-resize {
-  height: 284px;
-  width: 240px;
+  height: 225px;
+  width: 190px;
 }
 
 .eth-resize {

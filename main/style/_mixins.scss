@@ -2,15 +2,27 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+    align-items: center;
 }
 
 .koi-resize {
-    height: 284px;
-    width: 240px;
+    height: 225px;
+    width: 190px;
+    // position: absolute;
 }
 
 .eth-resize {
     height: 330px;
     width: 206px;
+    
 }
+
+// .redKOI {
+//     bottom: 22%;
+//     right: 40%;
+// }
+
+// .yellowKOI {
+//     // top: 10px;
+// }
 
