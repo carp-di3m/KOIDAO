@@ -38,11 +38,16 @@
 
 .container-koi {
   background-color: #0f0b24;
-  height: 90vh;
+  height: 100%;
   padding: 70px 10px 10px;
 }
 
 .header-dark-koi {
   background-color: #181333;
+}
+
+.lower-padding {
+  padding-top: 5px;
+  margin-top: 0px;
 }
 /*# sourceMappingURL=style.css.map */
