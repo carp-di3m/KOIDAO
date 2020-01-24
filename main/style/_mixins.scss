@@ -28,5 +28,8 @@
 
 .light-text {
     color: white;
+    &:hover {
+     color: gold;   
+    }
 }
 

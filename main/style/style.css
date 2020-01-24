@@ -32,9 +32,13 @@
   color: white;
 }
 
+.light-text:hover {
+  color: gold;
+}
+
 .container-koi {
   background-color: #0f0b24;
-  height: 100%;
+  height: 90vh;
   padding: 70px 10px 10px;
 }
 
