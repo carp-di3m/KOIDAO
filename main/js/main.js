@@ -10,24 +10,24 @@ const tl = new TimelineMax();
 
 tl.set('.yellowKOI', {
     x: -600,
-    y: 20,
+    y: 30,
     autoAlpha: 0
 })
     .to('.yellowKOI', {
         duration: 3,
-        x: 180,
+        x: 175,
         autoAlpha: 1
     });
 const tl2 = new TimelineMax();
 
     tl2.set('.redKOI', {
         x: 600,
-        y: -20,
+        y: -30,
         autoAlpha: 0
     })
         .to('.redKOI', {
             duration: 3,
-            x: -180,
+            x: -175,
             autoAlpha: 1
         });
 
