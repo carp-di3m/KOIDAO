@@ -1,20 +1,19 @@
 .flex-row-nowrap {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .koi-resize {
-    height: 213px;
-    width: 180px;
-    // position: absolute;
+  height: 213px;
+  width: 180px;
+  // position: absolute;
 }
 
 .eth-resize {
-    height: 330px;
-    width: 206px;
-    
+  height: 330px;
+  width: 206px;
 }
 
 // .redKOI {
@@ -27,9 +26,8 @@
 // }
 
 .light-text {
-    color: white;
-    &:hover {
-     color: gold;   
-    }
+  color: white;
+  &:hover {
+    color: gold;
+  }
 }
-

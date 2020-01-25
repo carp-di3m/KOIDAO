@@ -3,11 +3,14 @@
 // }
 
 .is-danger-koi {
-    background-color: #060124;
-    
+  background-color: #060124;
 }
 
 .is-bottom-koi {
-    background-color: #23166e;
-    height: 300px;
+  background-color: #23166e;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
 }

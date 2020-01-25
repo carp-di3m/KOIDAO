@@ -1,18 +1,23 @@
 // .container-koi {
-//     background-color: rgb(15, 11, 36);
-    
-//     padding: 70px 10px 10px;
+// //     background-color: rgb(15, 11, 36);
+//         width: 100.9%
+// //     padding: 70px 10px 10px;
 // }
 
 .header-dark-koi {
-    background-color: rgb(24, 19, 51);
-    
+  background-color: rgb(24, 19, 51);
 }
 
 .lower-padding {
-    padding-top: 5px;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    margin-top: 5px;
-    
+  padding-top: 5px;
+  padding-bottom: 0;
+  margin-bottom: -80px;
+  margin-top: 5px;
+}
+
+.stretch-koi {
+  width: 100%;
+  margin: 0 -1px;
+  padding: 0 -1px;
+  overflow-x: hidden;
 }

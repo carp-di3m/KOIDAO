@@ -5,6 +5,10 @@
 .is-bottom-koi {
   background-color: #23166e;
   height: 300px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .flex-row-nowrap {
@@ -48,7 +52,14 @@
 .lower-padding {
   padding-top: 5px;
   padding-bottom: 0;
-  margin-bottom: 0;
+  margin-bottom: -80px;
   margin-top: 5px;
+}
+
+.stretch-koi {
+  width: 100%;
+  margin: 0 -1px;
+  padding: 0 -1px;
+  overflow-x: hidden;
 }
 /*# sourceMappingURL=style.css.map */
