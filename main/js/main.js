@@ -17,7 +17,7 @@ tl.set('.yellowKOI', {
     .to('.yellowKOI', {
         duration: 3,
         x: 175,
-        autoAlpha: 0.8,
+        autoAlpha: 0.95,
         // ease: "power3.out",
         rotation: 0
     });
@@ -41,12 +41,12 @@ const tl3 = new TimelineMax();
 
     tl3.set(".ethFRAME", {
         
-        autoAlpha: 0
+        autoAlpha: -0.1
     })
         .to(".ethFRAME", {
-            duration: 4,
+            duration: 10,
             y: 0,
             autoAlpha: 1,
             // rotation: 360
-            // ease: "back.out(1)"
+            ease: "back.out(1)"
         })
