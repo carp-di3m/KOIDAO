@@ -4,11 +4,7 @@
 
 .is-bottom-koi {
   background-color: #23166e;
-  height: 300px;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow-x: hidden;
+  margin-bottom: 20px;
 }
 
 .flex-row-nowrap {
@@ -41,8 +37,8 @@
   color: white;
 }
 
-.light-text:hover {
-  color: gold;
+.hover-gold:hover {
+  color: gold !important;
 }
 
 .header-dark-koi {
@@ -56,10 +52,84 @@
   margin-top: 5px;
 }
 
+a.koi-header-logo:hover {
+  background-color: #060124;
+}
+
+.koi-header-logo p {
+  font-family: "Aclonica", sans-serif !important;
+}
+
+.hero-koi-big {
+  font-size: 50px;
+  font-family: "Aclonica", sans-serif !important;
+}
+
+.hero-koi-sub {
+  font-size: 30px;
+  font-family: "Work Sans", sans-serif !important;
+}
+
+.header-font-koi {
+  font-family: "Work Sans", sans-serif !important;
+}
+
 .stretch-koi {
   width: 100%;
-  margin: 0 -1px;
-  padding: 0 -1px;
+  margin: 0 -1px -8px;
+  padding: 0 -1px -8px;
   overflow-x: hidden;
+}
+
+.golden {
+  color: gold;
+  background: #060124;
+  border-radius: 5px;
+}
+
+.golden:hover {
+  background: white;
+  color: #060124;
+}
+
+.tab-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 20px 20px;
+  border: 1px solid gold;
+  border-radius: 10px;
+  background-color: #150A41;
+  padding: 50px;
+  width: 70%;
+  color: white;
+}
+
+.tab-box h2, .tab-box li, .tab-box h4 {
+  color: white;
+}
+
+.header-underline {
+  border-bottom-color: gold;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.koi-active-dropdown {
+  background-color: #060124;
+  color: #fcfadf;
+}
+
+.tab-container-koi {
+  background-color: #060124;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */

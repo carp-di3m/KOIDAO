@@ -27,7 +27,11 @@
 
 .light-text {
   color: white;
-  &:hover {
-    color: gold;
-  }
+  
+}
+
+.hover-gold {
+    &:hover {
+        color: gold!important;
+      }
 }

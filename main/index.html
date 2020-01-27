@@ -6,100 +6,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>KOI DAO</title>
+    <link rel="stylesheet" href="./sass/mystyles.css">
+    <script src="./src/jquery.min.js">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Aclonica&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.0/gsap.min.js"></script>
     <script src="./js/main.js" async></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script src="./js/components.js" async></script>
+    
+
     <link rel="stylesheet" href="./style/style.css">
 </head>
 
 <body>
-    <!-- <script type="text/javascript">
-        
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-86951-7']);
-		  _gaq.push(['_trackPageview']);
- 
-		  (function() {
-		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
-		  })();
-		
-        </script> -->
+   
 
-    
-    <nav class="navbar is-fixed-top is-transparent is-dark header-dark-koi" role="navigation" aria-label="main navigation ">
-        <div class="navbar-brand header-dark-koi">
-            <a class="navbar-item" href="#">
+
+    <nav class="navbar is-fixed-top is-transparent is-dark header-underline" role="navigation"
+        aria-label="main navigation ">
+        <div class="navbar-brand is-dark">
+            <a class="navbar-item koi-header-logo" href="#">
                 <img src="./img/logo.png" alt="KOI-LOGO">
                 <p>KOIDAO</p>
             </a>
-            
+            <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+
         </div>
-        <div id="navbarBasicExample" class="navbar-menu header-dark-koi">
+        <div id="navMenu" class="navbar-menu is-dark">
             <div class="navbar-start">
-                
-                <div class="navbar-item has-dropdown is-hoverable navbar-burger">
-                    <a class="navbar-link"></a>
-                    <div class="navbar-dropdown">
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link drk"></a>
+                    <div class="navbar-dropdown header-font-koi">
                         <a class="navbar-item">Mission</a>
                         <a class="navbar-item">Ecosystem</a>
                         <a class="navbar-item">FAQ</a>
-                        
+
                     </div>
                 </div>
             </div>
-            <div class="navbar-end">
+            <div class="navbar-end ">
                 <a class="navbar-item">
                     KOI in Circulation: {N}
-                  </a>
-                  <a class="navbar-item">
+                </a>
+                <a class="navbar-item">
                     KOI Locked in Staking: {N}
-                  </a>
-                  <a class="navbar-item">
+                </a>
+                <a class="navbar-item">
                     DAI in Contract: {N}
-                  </a>
+                </a>
                 <div class="navbar-item">
                     <div class="buttons">
-                        <a class="button is-danger-koi is-bold light-text">
+                        <a class="button is-light is-bold light-text ">
                             <strong>Exchange</strong>
                         </a>
-                        <a class="button is-warning is-bold is-focused">
+                        <a class="button is-warning is-bold">
                             <strong>Governance</strong>
                         </a>
-                        
+
                     </div>
                 </div>
             </div>
         </div>
     </nav>
-    
+
     <div class="container-koi lower-padding">
         <section class="is-large is-danger-koi is-bold ">
             <div class="hero-body">
-              <div class="container lower-padding">
-                <h1 class="title light-text">
-                  KOI DAO 
-                </h1>
-                <h2 class="subtitle light-text">
-                  A Shared Interest DAO for: <br> Fundraising and Revenue Sharing of Gaming Dapps
-                </h2>
-                <div class="flex-row-nowrap">
-                    <img class="koi-resize yellowKOI" src="./img/yell_koi.png" alt="yellow-koi">
-                    <img class="eth-resize ethFRAME" src="./img/troopy_red_gold_pinkv1_tilted.png" alt="eth-logo">
-                    <img class="koi-resize redKOI" src="./img/red_koi.png" alt="red-koi">
-                    
+                <div class="container lower-padding">
+                    <h1 class="title light-text hero-koi-big hover-gold">
+                        KOI DAO
+                    </h1>
+                    <h2 class="subtitle light-text hero-koi-sub">
+                        A Shared Interest DAO for: <br> Fundraising and Revenue Sharing of Gaming Dapps
+                    </h2>
+                    <div class="flex-row-nowrap">
+                        <img class="koi-resize yellowKOI" src="./img/yell_koi.png" alt="yellow-koi">
+                        <img class="eth-resize ethFRAME" src="./img/troopy_red_gold_pinkv1_tilted.png" alt="eth-logo">
+                        <img class="koi-resize redKOI" src="./img/red_koi.png" alt="red-koi">
+
+                    </div>
                 </div>
-              </div>
+            </div>
+
+            <div class="stretch-koi"><img src="./img/wave1.png" alt="wave" style="width:100vw"></div>
+        </section>
+        <section class="is-bottom-koi">
+            <div>
+                <div class="tabs is-centered is-boxed">
+                    <ul>
+                        <li class="is-active">
+                            <a>
+
+                                <span>Mission</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <span>Ecosystem</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <span>FAQs</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             
-            <section class="is-bottom-koi stretch-koi"><img src="./img/wave1.svg" alt="wave" style="width:101vw"></section>
-          </section>
-          <section class="is-bottom-koi"></section>
-          
-    </div>
+            
     
+    </section>
+    <div class="tab-container-koi">
+        <div class="tab-box">
+            
+            </div>
+                
+        
+        </div>
+
+
+    </div>
+
 
     <!-- <script src="/main/js/ripplesKoi.js"></script>    -->
 </body>

@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+$family-sans-serif: "Work Sans", sans-serif;
+
+//Color variables
+$dark-violet: #060124;
+$darkest-violet: #0b0624;
+$light-violet: #23166e;
+$light-violet-translucent: #150A41;
+$gold: gold;
+$light-gold: rgb(248, 229, 120);
+$white-gold: #fcfadf;
+
+//customization for KOIDAO
+$dark: $darkest-violet;
+$link: $dark-violet;
+$danger: $gold;
+$tabs-boxed-link-active-background-color: $gold;
+$tabs-boxed-link-hover-background-color: $light-gold;
+$tabs-link-color: $white-gold;
+$navbar-dropdown-background-color: $light-violet-translucent;
+$body-background-color: $dark-violet;
+$navbar-dropdown-item-hover-color: $gold;
+$border: $gold;
+$navbar-dropdown-border-top: 1px solid $border;
+
+
+@import "../../../../../mybulma/node_modules/bulma/bulma.sass";
+
+//Fixes for burger
+
+.navbar-burger:hover {
+    background-color: $light-violet-translucent}
+    
+    .navbar-burger.burger.is-active {
+    background-color: $blue;
+    span{
+    background-color: $light-gold}}
+    
+    .navbar-burger{
+    span{
+    background-color: $gold}
+    }
+    
+    .navbar-menu.is-active {
+        background-color: $light-violet-translucent;
+        a 
+            {color: $white-gold;
+                
+                &:hover {
+                    background-color: $dark-violet;
+                    color: $gold;
+                }
+        
+        }
+    }
+a.button.is-light.is-bold.light-text {
+    color: $dark-violet;
+    &:hover {
+        background-color: $white-gold;
+        color: $dark-violet;
+    }
+
+}
+
+a.button.is-warning.is-bold {
+    background-color: $gold;
+    color: $darkest-violet;
+}
+
+a.navbar-link.drk {
+    &:hover {
+        background-color: #150A41;
+    }
+}
+
+div.navbar-dropdown a.navbar-item {
+    color: $white-gold;
+}

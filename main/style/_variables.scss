@@ -2,15 +2,19 @@
 //     background-color: #5f54c2;
 // }
 
+$dark-violet: #060124;
+$darkest-violet: #0b0624;
+$light-violet: #23166e;
+$light-violet-translucent: #150A41;
+$gold: gold;
+$light-gold: rgb(248, 229, 120);
+$white-gold: #fcfadf;
+
 .is-danger-koi {
-  background-color: #060124;
+  background-color: $dark-violet
 }
 
 .is-bottom-koi {
-  background-color: #23166e;
-  height: 300px;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow-x: hidden;
+  background-color: $light-violet;
+  margin-bottom: 20px;
 }

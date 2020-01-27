@@ -1,0 +1,22 @@
+{
+  "name": "koidao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://carp-di3m@github.com/carp-di3m/KOIDAO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carp-di3m/KOIDAO/issues"
+  },
+  "homepage": "https://github.com/carp-di3m/KOIDAO#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
