@@ -143,4 +143,10 @@ a.koi-header-logo:hover {
           box-shadow: inset 0 0 2px #fff, inset 1px 0 2px #3011b0, inset -1px 0 3px #4f2ed3, inset 2px 0 5px #3011b0, inset -2px 0 5px #4f2ed3, 0 0 3px #fff, -1px 0 2px #3011b0, 1px 0 3px #4f2ed3;
   /* outer right cyan */
 }
+
+.tab-glow {
+  -webkit-box-shadow: 0 2px 2px -2px #fff, 0 2px 2px -2px #3011b0, 0 3px 3px -3px #4f2ed3, 0 5px 5px -5px #3011b0, 0 5px 5px -5px #4f2ed3, 0 3px 3px -3px #fff, 0 2px 2px -3px #3011b0, 0 3px 3px -3px #4f2ed3;
+          box-shadow: 0 2px 2px -2px #fff, 0 2px 2px -2px #3011b0, 0 3px 3px -3px #4f2ed3, 0 5px 5px -5px #3011b0, 0 5px 5px -5px #4f2ed3, 0 3px 3px -3px #fff, 0 2px 2px -3px #3011b0, 0 3px 3px -3px #4f2ed3;
+  /* outer right cyan */
+}
 /*# sourceMappingURL=style.css.map */

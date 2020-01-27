@@ -66,6 +66,7 @@ a.koi-header-logo {
     justify-content: center;
     margin: 0 20px 20px;
     border: 1px solid $gold;
+    
     border-radius: 10px;
     background-color: $light-violet-translucent;
     padding: 50px;
@@ -80,6 +81,7 @@ a.koi-header-logo {
     border-bottom-color: gold;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    
 }
 
 .koi-active-dropdown {
@@ -123,3 +125,16 @@ a.koi-header-logo {
      
 }
 
+.tab-glow {
+   
+    box-shadow:
+         0 2px 2px -2px #fff,      /* inner white */
+         0 2px 2px -2px #3011b0,   /* inner left magenta short */
+          0 3px 3px -3px #4f2ed3,  /* inner right cyan short */
+         0 5px 5px -5px #3011b0,  /* inner left magenta broad */
+          0 5px 5px -5px #4f2ed3, /* inner right cyan broad */
+        0 3px 3px -3px #fff,            /* outer white */
+         0 2px 2px -3px #3011b0,        /* outer left magenta */
+     0 3px 3px -3px #4f2ed3;         /* outer right cyan */
+     
+}
