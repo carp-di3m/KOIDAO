@@ -94,19 +94,32 @@ a.koi-header-logo {
 }
 @-webkit-keyframes neon {
     from {
-        text-shadow: 0 0 1px $light-violet, 0 0 3px #fff1a3, 0 0 7px #150A41, 
+        text-shadow: 0 0 2px $light-violet, 0 0 5px #fff1a3, 0 0 7px #150A41, 
       0 0 9px #FFDD1B, 0 0 11px rgb(50, 0, 250)
       
     }
     to {
-        text-shadow: 0 0 2px $light-violet, 0 0 4px #fff1a3, 0 0 7px #150A41, 
+        text-shadow: 0 0 2px $light-violet, 0 0 6px #fff1a3, 0 0 7px #150A41, 
         0 0 9px #FFDD1B, 0 0 11px rgb(51, 0, 255)
     }
   }
 
 .golden-glow {
     color:  $gold;
-    animation: neon 2s ease-in-out infinite;
+    animation: neon 1.5s ease-in-out infinite;
     
+}
+
+.border-glow {
+    box-shadow:
+        inset 0 0 10px #fff,      /* inner white */
+        inset 5px 0 20px #3011b0,   /* inner left magenta short */
+        inset -5px 0 20px #ffe100,  /* inner right cyan short */
+        inset 7px 0 50px #3011b0,  /* inner left magenta broad */
+        inset -7px 0 50px #ffe100, /* inner right cyan broad */
+        0 0 15px #fff,            /* outer white */
+        -3px 0 20px #3011b0,        /* outer left magenta */
+        3px 0 20px #ffe100;         /* outer right cyan */
+     
 }
 
