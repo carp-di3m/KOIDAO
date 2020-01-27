@@ -92,4 +92,21 @@ a.koi-header-logo {
     display: flex;
     justify-content: center;
 }
+@-webkit-keyframes neon {
+    from {
+        text-shadow: 0 0 1px $light-violet, 0 0 3px #fff1a3, 0 0 7px #150A41, 
+      0 0 9px #FFDD1B, 0 0 11px rgb(50, 0, 250)
+      
+    }
+    to {
+        text-shadow: 0 0 2px $light-violet, 0 0 4px #fff1a3, 0 0 7px #150A41, 
+        0 0 9px #FFDD1B, 0 0 11px rgb(51, 0, 255)
+    }
+  }
+
+.golden-glow {
+    color:  $gold;
+    animation: neon 2s ease-in-out infinite;
+    
+}
 

@@ -103,4 +103,4 @@ function missionCreator() {
 };
 
 const tabContainer = document.querySelector('.tab-box');
-tabContainer.appendChild(missionCreator())
+tabContainer.appendChild(missionCreator());

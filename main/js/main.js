@@ -8,7 +8,7 @@ const tl = new TimelineMax();
 // gsap.from(".ethFRAME", {duration: 2, y: -600})
 
 tl.set(".yellowKOI", {
-  x: -600,
+  x: -800,
   y: 30,
   autoAlpha: 0,
   rotation: 180
@@ -23,7 +23,7 @@ const tl2 = new TimelineMax();
 
 tl2
   .set(".redKOI", {
-    x: 600,
+    x: 800,
     y: -30,
     autoAlpha: 0,
     rotation: -180
