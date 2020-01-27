@@ -135,10 +135,19 @@ a.koi-header-logo:hover {
 
 @-webkit-keyframes neon {
   from {
-    text-shadow: 0 0 1px #23166e, 0 0 2px #fff1a3, 0 0 3px #150A41;
+    text-shadow: 0 0 1px #23166e, 0 0 3px #fff1a3, 0 0 3px #150A41;
   }
   to {
-    text-shadow: 0 0 2px #23166e, 0 0 3px #fff1a3, 0 0 4px #150A41;
+    text-shadow: 0 0 2px #23166e, 0 0 4px #fff1a3, 0 0 4px #150A41;
+  }
+}
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 1px #23166e, 0 0 3px #fff1a3, 0 0 3px #150A41;
+  }
+  to {
+    text-shadow: 0 0 2px #23166e, 0 0 4px #fff1a3, 0 0 4px #150A41;
   }
 }
 
